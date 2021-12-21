@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* Skip */
+#skip {position: relative;}
+#skip a {position: absolute; left: 0px; top: -35px; border: 1px solid #fff; color: #fff; background: #333; line-height: 30px; width: 140px; text-align: center;}
+#skip a:active,
+#skip a:focus {top: 0;}
+
+/* 레이아웃 */
+#header {height: 130px;}
+#banner {height: 400px; background: #111;}
+#contents {height: 800px; background: #222;}
+#footer {height: 200px; background: #333;}
+
+/* 컨테이너 */
+.container {width: 1300px; margin: 0 auto; height: inherit; /* background: rgba(255,255,255,0.3);*/} 
+
+/* Header */
+.header_header .lang {font-size: 15px; background: #fff; border: 0; outline: 0;}
+.header_header .header_logo {text-align: left; position: absolute; padding: 5px 0 0;}
+.header_header .right_header {text-align: right; position: relative; padding: 10px 10px 5px;}
+.header_header .right_header ul li {display: inline; font-size: 15px; line-height: 20px; margin-right: 25px;}
+
+.header_header .right_header ul .last .lang_list {overflow: hidden; position:absolute;}
+.header_header .right_header ul .last .lang_list li {display: inline;}
+.header_header .right_header ul .last .lang:hover lang_list button {visibility: visible;}
+.header_header .right_header a:hover {color: ##FE0101;}
+
+.header_menu .center_menu {text-align: right; position: relative; padding: 40px 20px 0;}
+.header_menu .center_menu ul li {display: inline; font-size: 20px; line-height: 25px; margin-left: 40px;}
+.header_menu .center_menu ul li a:hover {color: #FE0101;}
+
+/* Contents */
+/* Footer */
